@@ -9,6 +9,7 @@ import AboutMe from './AboutMe/AboutMe.jsx';
 import Portfolio from './PortfolioSection/Portfolio.jsx';
 import ContactMe from './ContactMe/ContactMe.jsx';
 import Footer from './Footer/Footer.jsx';
+import Effects from './Effects/Effects.jsx';
 
 const main = ReactDOM.createRoot(document.getElementById('main'))
 main.render(
@@ -20,5 +21,6 @@ main.render(
     <Portfolio data={data} />
     <ContactMe data={data} />
     <Footer data={data} />
+    <Effects data={data} />
   </>
 );
