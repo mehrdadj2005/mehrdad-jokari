@@ -125,7 +125,7 @@
                     "srcIcon": "./src/assets/images/Downlaod.svg",
                     "textBtn": "Download CV",
                     "class": "btn",
-                    "href": "images/MyResume-99[www.cvbuilder.me].pdf"
+                    "href": "./src/assets/images/MyResume-99[www.cvbuilder.me].pdf"
                 }]
             },
             [{

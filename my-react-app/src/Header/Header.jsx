@@ -65,8 +65,8 @@ function hiddenSidebar() {
 
 setTimeout(() => {
 
-    // document.querySelector(".HireMeHeader").addEventListener("click", goToSection)
-    // document.querySelector(".HireMeHero").addEventListener("click", goToSection)
+    document.querySelector(".HireMeHeader").addEventListener("click", goToSection)
+    document.querySelector(".HireMeHero").addEventListener("click", goToSection)
 }, 1000);
 
 
