@@ -6,8 +6,9 @@ import { Header } from "./Header/Header.jsx";
 import Hero from "./HeroSection/Hero.jsx";
 import Services from "./ServicesSection/Services.jsx";
 import AboutMe from './AboutMe/AboutMe.jsx';
-import Portfolio from './PortfolioSection/Portfolio';
-import ContactMe from './ContactMe/ContactMe';
+import Portfolio from './PortfolioSection/Portfolio.jsx';
+import ContactMe from './ContactMe/ContactMe.jsx';
+import Footer from './Footer/Footer.jsx';
 
 const main = ReactDOM.createRoot(document.getElementById('main'))
 main.render(
@@ -18,5 +19,6 @@ main.render(
     <AboutMe data={data} />
     <Portfolio data={data} />
     <ContactMe data={data} />
+    <Footer data={data} />
   </>
 );

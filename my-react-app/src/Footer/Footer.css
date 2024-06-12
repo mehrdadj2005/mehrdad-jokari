@@ -1,0 +1,222 @@
+footer {
+    background-color: var(--Grey-Normal-hover);
+}
+
+.container-Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .linksIcon {
+    display: flex;
+    margin: 30px 0 0 0;
+}
+
+footer .linksIcon a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Grey-Normal-hover);
+    border: 0.7px solid var(--White-Darker);
+    border-radius: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .linksIcon a img {
+    width: 23px;
+    height: 23px;
+}
+
+.iconBehance img {
+    margin-top: 3px;
+    width: 31px !important;
+    height: 29px !important;
+}
+
+.iconLinkedin img {
+    width: 31px;
+    height: 29px;
+}
+
+.btnHire {
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-bottom: 80px;
+}
+
+.hr {
+    width: 40%;
+    height: 2px;
+    background-color: var(--White-Dark-active);
+    margin-top: 30px;
+}
+
+.logo-footer {
+    margin-top: 40px;
+    background: -webkit-linear-gradient(0deg, var(--leftBgLogo), var(--rightBgLogo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: K2D;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.nav {
+    margin-top: 30px;
+}
+
+.callMe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.callMe * {
+    color: var(--White-Dark-hover);
+}
+
+.callMe>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.callMe img {
+    margin: 1vh;
+}
+
+.texxtFooter {
+    margin: 10px 0 20px;
+}
+
+.texxtFooter {
+    color: var(--White-Dark-active);
+    font-size: 16px;
+}
+
+.container-Footer li {
+    color: var(--White-Dark-hover);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1100px) {
+    .callMe {
+        flex-direction: column;
+    }
+
+    .callMe>div {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hr {
+        margin-top: 15px;
+    }
+
+    .logo-footer {
+        font-size: 20px;
+    }
+
+    .callMe {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    footer li,
+    footer p {
+        font-size: 16px;
+    }
+
+    .hr {
+        margin-top: 10px;
+    }
+
+    .logo-footer {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .container-Footer li {
+        font-size: 12px !important;
+    }
+
+    .container-Footer .nav {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-Footer li {
+        font-size: 10px !important;
+    }
+
+    .texxtFooter p {
+        font-size: 14px;
+    }
+
+    .linksIcon a {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .linksIcon a img {
+        width: 17px !important;
+        height: 17px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container-Footer li {
+        font-size: 10px !important;
+        padding: 0.5vh;
+    }
+
+    .texxtFooter p,
+    .callMe p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 310px) {
+    .container-Footer li {
+        font-size: 8px !important;
+        padding: 0.5vh;
+        margin: 0 4px;
+    }
+
+    .texxtFooter p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .callMe p {
+        font-size: 12px;
+    }
+
+    .callMe img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .linksIcon {
+        margin-top: 15px !important;
+    }
+
+    .callMe {
+        margin-top: 10px;
+    }
+}
