@@ -1,0 +1,360 @@
+@import url(../assets/localVariables/colors.css);
+
+#heroSection {
+    background-color: var(--Grey-Dark-hover);
+    padding-top: 45px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hiText {
+    font-size: 24px;
+    color: var(--White-Dark-active);
+}
+
+.fullName {
+    font-size: 28px;
+    color: var(--White-Dark-hover);
+}
+
+.skillText {
+    font-size: 70px;
+    background: -webkit-linear-gradient(0deg, var(--Orange-Dark-hover)0%, var(--Orange-Normal)46%, var(--Orange-Normal-activ)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.linksIcon {
+    display: flex;
+    margin: 17px 0 60px;
+}
+
+.linksIcon a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Grey-Normal-hover);
+    border: 0.7px solid var(--White-Darker);
+    border-radius: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linksIcon a img {
+    width: 23px;
+    height: 23px;
+}
+
+.iconBehance img {
+    margin-top: 3px;
+    width: 31px !important;
+    height: 29px !important;
+}
+
+.iconLinkedin img {
+    width: 31px !important;
+    height: 29px !important;
+}
+
+.btnHire {
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-bottom: 80px;
+}
+
+.borderBtn {
+    color: var(--White-Dark-hover);
+    font-size: 20px;
+    padding: 12px 40px;
+    background: none;
+    border: 2px solid var(--White-Dark-hover);
+    border-radius: 8px;
+    cursor: none;
+}
+
+.projectHistory {
+    width: 534px;
+    height: 125px;
+    background-color: var(--Grey-Normal-hover);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectHistory div h3 {
+    font-size: 24px;
+    color: var(--Orange-Normal);
+}
+
+.projectHistory div span {
+    font-size: 20px;
+    color: var(--White-Normal-hover);
+}
+
+.photoMe {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.myImage {
+    width: 340px;
+    height: 520px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.bg-ph-hero {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: var(--Grey-Normal-hover);
+}
+
+.projectHistory>div {
+    border-right: 1px solid var(--White-Dark-hover);
+    padding-right: 15px;
+}
+
+.projectHistory>div:nth-last-of-type(1) {
+    border: none !important;
+    padding: none !important;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1300px) {
+    .skillText {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #heroSection .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #heroSection .container>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #heroSection .container>div * {
+        text-align: center;
+    }
+
+    .linksIcon {
+        margin-bottom: 20px;
+    }
+
+    .btnsHero button {
+        margin-bottom: 30px;
+    }
+
+    .projectHistory {
+        margin-bottom: 130px;
+    }
+
+    #heroSection {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .btnsHero {
+        width: 380px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .projectHistory>div {
+        padding: 0 28px 0 7px;
+    }
+
+    #heroSection {
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+
+    #heroSection {
+        padding-top: 20px;
+    }
+
+    .btnsHero {
+        width: 270px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .hiText {
+        font-size: 16px;
+    }
+
+    .fullName {
+        font-size: 20px;
+    }
+
+    .skillText {
+        font-size: 34px;
+    }
+
+    .linksIcon a img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .btnsHero button {
+        padding: 13px 25px;
+        font-size: 14px;
+    }
+
+    .projectHistory {
+        width: 350px;
+        height: 90px;
+    }
+
+    .projectHistory>div {
+        padding: 0 10px 0 10px;
+    }
+
+    .projectHistory h3 {
+        font-size: 20px !important;
+    }
+
+    .projectHistory span {
+        font-size: 16px !important;
+    }
+
+    .bg-ph-hero {
+        width: 360px;
+        height: 360px;
+    }
+
+    .myImage {
+        width: 300px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .linksIcon a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .linksIcon a img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .iconBehance img,
+    .iconLinkedin img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+    .hiText {
+        font-size: 14px;
+    }
+
+    .fullName {
+        font-size: 18px;
+    }
+
+    .skillText {
+        font-size: 30px;
+    }
+
+    .btnsHero {
+        width: 270px;
+    }
+
+    .projectHistory {
+        width: 250px;
+        height: 70px;
+    }
+
+    .projectHistory h3 {
+        font-size: 16px !important;
+    }
+
+    .projectHistory span {
+        font-size: 10px !important;
+    }
+
+    .bg-ph-hero {
+        width: 260px;
+        height: 260px;
+    }
+
+    .myImage {
+        width: 200px;
+        height: 350px;
+    }
+
+    .projectHistory {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .btnsHero {
+        width: 180px;
+    }
+
+    .btnsHero button {
+        font-size: 12px;
+    }
+
+    .projectHistory {
+        width: 200px;
+        height: 60px;
+    }
+
+    .projectHistory h3 {
+        font-size: 12px !important;
+    }
+
+    .projectHistory span {
+        font-size: 8px !important;
+    }
+
+    .bg-ph-hero {
+        width: 200px;
+        height: 200px;
+    }
+
+    .myImage {
+        width: 170px;
+        height: 270px;
+    }
+
+    .projectHistory {
+        margin-bottom: 70px;
+    }
+
+    .projectHistory>div {
+        padding: 0 10px 0 7px;
+    }
+}
