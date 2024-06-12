@@ -1,0 +1,330 @@
+.AboutMeSection {
+    background: var(--Grey-Dark-hover);
+}
+
+.container-aboutMe {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texts-Head-AboutMe {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.texts-Head-AboutMe h1 {
+    color: var(--White-Light);
+}
+
+.texts-Head-AboutMe p {
+    color: var(--White-Dark-active);
+    margin-top: 18px;
+}
+
+.main-AboutMe {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main-AboutMe>div {
+    width: 50%;
+}
+
+.main-AboutMe p {
+    width: 65%;
+    line-height: 30px;
+}
+
+.textsAndBtn {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.textsAndBtn button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.textsAndBtn p {
+    width: 100%;
+    color: var(--White-Dark-hover);
+    margin-bottom: 40px;
+}
+
+
+.textsAndBtn img {
+    margin-right: 10px;
+}
+
+.photoAbout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-ph-about {
+    width: 400px;
+    height: 550px;
+    border-radius: 50% 50% 0 0;
+    margin: 0 auto;
+    background-color: var(--Grey-Normal-hover);
+}
+
+.meImage2 {
+    position: absolute;
+    bottom: 0%;
+    width: 450px;
+    height: 600px;
+}
+
+.scroller {
+    max-width: 60%;
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+
+    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .skills {
+    width: max-content;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - (0.5rem)));
+    }
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 1rem;
+    padding-block: 0rem;
+    box-sizing: border-box;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill div {
+    border: 7px solid var(--Orange-Normal);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+
+.skill span {
+    color: var(--Orange-Normal);
+    margin-top: 10px;
+}
+
+.skill h4 {
+    color: var(--White-Dark-hover);
+    margin-top: 8px;
+    width: 120px;
+    text-align: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1100px) {
+
+    .texts-Head-AboutMe {
+        margin-top: 80px;
+    }
+
+    .textsAndBtn p {
+        font-size: 18px;
+    }
+
+    .skills {
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .skills {
+        scrollbar-width: none;
+    }
+
+    .skills::-webkit-scrollbar {
+        display: none;
+    }
+
+    .skill {
+        width: 150px;
+        margin: 0 20px;
+    }
+
+    .skill h4 {
+        width: 120px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .bg-ph-about {
+        height: 500px;
+    }
+
+    .meImage2 {
+        width: 400px;
+        height: 550px;
+    }
+
+    .texts-Head-AboutMe {
+        margin-top: 60px;
+    }
+
+    .textsAndBtn p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .texts-Head-AboutMe h1 {
+        font-size: 24px;
+    }
+
+    .texts-Head-AboutMe p {
+        font-size: 16px;
+    }
+
+    .main-AboutMe {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .textsAndBtn {
+        margin-left: 0;
+        width: 80% !important;
+        margin-top: 30px;
+
+    }
+
+    .main-AboutMe>div {
+        width: 100%;
+    }
+
+    .textsAndBtn p {
+        text-align: center;
+        width: 70%;
+    }
+
+    .textsAndBtn {
+        display: flex;
+        align-items: center;
+    }
+
+    .bg-ph-about {
+        width: 70%;
+        height: 400px;
+    }
+
+    .meImage2 {
+        width: 400px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textsAndBtn p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .textsAndBtn p {
+        font-size: 12px;
+        width: 100%;
+        line-height: 18px;
+    }
+
+    .meImage2 {
+        width: 300px;
+        height: 380px;
+    }
+
+    .bg-ph-about {
+        width: 85%;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    .meImage2 {
+        width: 240px;
+        height: 330px;
+    }
+
+    .bg-ph-about {
+        width: 85%;
+        height: 280px;
+    }
+
+    .textsAndBtn p {
+        font-size: 10px;
+        width: 100%;
+        line-height: 14px;
+        margin-bottom: 25px;
+    }
+
+    .skills {
+        margin-top: 30px;
+    }
+
+    .skill {
+        width: 80px;
+    }
+
+    .skill div {
+        padding: 6px;
+    }
+
+    .skill img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skill>span {
+        font-size: 15px !important;
+        margin-top: 8px;
+    }
+
+    .skill>h4 {
+        font-size: 12px !important;
+        margin-top: 6px;
+    }
+}
