@@ -1,0 +1,265 @@
+{
+    "header": [{
+            "src": "./images/menu.svg"
+        }, {
+            "child": "MeHrDaD jOkArI"
+        },
+        {
+            "child": [{
+                    "child": "Home",
+                    "onClick": "goToHome"
+                },
+                {
+                    "child": "Services",
+                    "onClick": "goToServices"
+                },
+                {
+                    "child": "About me",
+                    "onClick": "goToAboutMe"
+                },
+                {
+                    "child": "Portfolio",
+                    "onClick": "goToPortfolio"
+                },
+                {
+                    "child": "Contact me",
+                    "onClick": "goToContactMe"
+                }
+            ]
+        },
+        [{
+            "child": "Hire Me",
+            "class": "btn HireMeHeader"
+        }]
+    ],
+    "heroSection": [{
+            "src": "images/meImage.png"
+        },
+        {
+            "textsHero": [{
+                    "class": "hiText",
+                    "child": "Hi I am"
+                },
+                {
+                    "class": "fullName",
+                    "child": "Mehrdad Jokari"
+                },
+                {
+                    "class": "skillText",
+                    "child": "Developer programmer"
+                }
+            ],
+            "linksIcon": [{
+                    "class": "iconInsta",
+                    "src": "images/insta.svg",
+                    "href": "https://www.instagram.com/mehrdadj2005?igsh=MW1zYnM0aThteHQ3aQ=="
+                },
+                {
+                    "class": "iconLinkedin",
+                    "src": "images/linkedin.svg",
+                    "href": "https://www.linkedin.com/in/mehrdad-jokari-4bab33276/"
+                }
+            ],
+            "btns": [{
+                    "class": "btn btnHire HireMeHero",
+                    "child": "Hire Me"
+                },
+                {
+                    "class": "borderBtn",
+                    "child": "Downlead CV",
+                    "href": "images/MyResume-99[www.cvbuilder.me].pdf",
+                    "download": "download"
+                }
+            ],
+            "projectHistory": [{
+                    "num": "5+",
+                    "child": "Experiences"
+                },
+                {
+                    "num": "6+",
+                    "child": "Project done"
+                },
+                {
+                    "num": "0+",
+                    "child": "Happy Clients"
+                }
+            ]
+        }
+    ],
+    "Services": [{
+            "title": "Services",
+            "description": "Lorem ipsum dolor sit amet consectetur."
+        },
+        [{
+                "srcLink": "./images/icons8-html-5.svg",
+                "titCard": "HTML / CSS",
+                "description": "Professional and specialized (HTML / CSS) template development"
+            },
+            {
+                "srcLink": "./images/icons8-js.svg",
+                "titCard": "java script",
+                "description": "Professional and specialized website development with JavaScript language"
+            },
+            {
+                "srcLink": "./images/icons8-react-48.png",
+                "titCard": "java script",
+                "description": "Site development with React library, the best and fastest library"
+            },
+            {
+                "srcLink": "./images/icons8-paint-palette-with-brush-96.png",
+                "titCard": "java script",
+                "description": "Designing 0 to 100 sites with ux science"
+            }
+        ]
+    ],
+    "AboutMe": [{
+            "title": "About Me",
+            "description": "User Interface And User Experience And Also Video Editing"
+        },
+        [{
+                "src": "images/meImage2.svg"
+            },
+            {
+                "textAboutMe": "I am from Bushehr! After watching a movie,I became interested in programming after a while. Currently, I have learned HTML, CSS, JAVASCRIPT and I am learning react I worked for 6 months in the area of ​​ui / ux design I am interested in  management and I am improving every day. ( If you don't want to be the same color Go crazy for the crowd !!!)",
+                "btns": [{
+                    "srcIcon": "images/Downlaod.svg",
+                    "textBtn": "Download CV",
+                    "class": "btn",
+                    "href": "images/MyResume-99[www.cvbuilder.me].pdf"
+                }]
+            },
+            [{
+                    "srcIcon": "images/JS.svg",
+                    "Percent": "45%",
+                    "skillName": "Java Script"
+                },
+                {
+                    "srcIcon": "images/github.png",
+                    "Percent": "90%",
+                    "skillName": "Github Desktop"
+                },
+                {
+                    "srcIcon": "images/visual-studio.svg",
+                    "Percent": "95%",
+                    "skillName": "VS Code"
+                },
+                {
+                    "srcIcon": "images/trello.svg",
+                    "Percent": "85%",
+                    "skillName": "trello"
+                },
+                {
+                    "srcIcon": "images/bootstrap.svg",
+                    "Percent": "50%",
+                    "skillName": "BootStrap"
+                },
+                {
+                    "srcIcon": "images/figma.png",
+                    "Percent": "50%",
+                    "skillName": "Figma"
+                },
+                {
+                    "srcIcon": "images/UI.svg",
+                    "Percent": "15%",
+                    "skillName": "UI"
+                },
+                {
+                    "srcIcon": "images/UX.svg",
+                    "Percent": "35%",
+                    "skillName": "UX"
+                }
+            ]
+        ]
+    ],
+    "Portfolio": [
+        [{
+                "child": "Portfolio"
+            },
+            []
+        ],
+        [{
+                "src": "./images/project-01.png",
+                "href": "https://mehrdadj2005.github.io/Cupcake-Factory/",
+                "nameProject": "Cupcake Factory",
+                "categories": "CSS"
+            },
+            {
+                "src": "images/TOM-AND-JERRY.jpg",
+                "href": "https://mehrdadj2005.github.io/TOM-AND-JERRY-GAME/",
+                "nameProject": "Tom And Jerry",
+                "categories": "JS"
+            },
+            {
+                "src": "./images/IQ-TEST.png",
+                "href": "https://mehrdadj2005.github.io/IQ-TEST/",
+                "nameProject": "lorem lorem",
+                "categories": "Css"
+            }
+        ],
+        {}
+    ],
+    "ContactMe": [{
+            "title": "Contact me",
+            "description": "Cultivating Connections: Reach Out and Connect with Me"
+        },
+        [{
+                "child": "Name",
+                "id": "name"
+            }, {
+                "child": "Phone Number",
+                "id": "phoneNumber"
+            },
+            {
+                "child": "Email",
+                "id": "email"
+            }
+        ],
+        [{
+            "child": "Send",
+            "class": "borderBtn senddEmail"
+        }]
+    ],
+    "Footer": [{
+            "child": "MeHrDaD jOkArI"
+        },
+        [{
+                "child": "Home"
+            },
+            {
+                "child": "Services"
+            },
+            {
+                "child": "About me"
+            },
+            {
+                "child": "Portfolio"
+            },
+            {
+                "child": "Contact me"
+            }
+        ],
+        [{
+                "class": "iconInsta",
+                "src": "images/insta.svg",
+                "href": "https://www.instagram.com/mehrdadj2005?igsh=MW1zYnM0aThteHQ3aQ=="
+            },
+            {
+                "class": "iconLinkedin",
+                "src": "images/linkedin.svg",
+                "href": "https://www.linkedin.com/in/mehrdad-jokari-4bab33276/"
+            }
+        ],
+        [{
+                "src": "./images/emailIcon.svg",
+                "child": "mehrdadjokari13@gmail.com"
+            },
+            {
+                "src": "./images/callIcon.svg",
+                "child": "09030377534"
+            }
+        ],
+        {
+            "child": "Development By Right Click"
+        }
+    ]
+}
