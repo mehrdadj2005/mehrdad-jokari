@@ -6,6 +6,7 @@ import { Header } from "./Header/Header.jsx";
 import Hero from "./HeroSection/Hero.jsx";
 import Services from "./ServicesSection/Services.jsx";
 import AboutMe from './AboutMe/AboutMe.jsx';
+import Portfolio from './PortfolioSection/Portfolio';
 
 const main = ReactDOM.createRoot(document.getElementById('main'))
 main.render(
@@ -14,5 +15,6 @@ main.render(
     <Hero data={data} />
     <Services data={data} />
     <AboutMe data={data} />
+    <Portfolio data={data} />
   </>
 );
