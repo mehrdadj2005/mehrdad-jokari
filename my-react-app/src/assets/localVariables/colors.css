@@ -1,0 +1,57 @@
+:root {
+    /* logo color */
+    --leftBgLogo: #FA6E00;
+    --rightBgLogo: #E60026;
+
+
+    /* Orange */
+    --Orange-Light: #FFF1E6;
+    --Orange-Light-hover: #FFE9D9;
+    --Orange-Light-active: #FED2B0;
+    --Orange-Normal: #FD6F00;
+    --Orange-Normal-hover: #E46400;
+    --Orange-Normal-activ: #CA5900;
+    --Orange-Dark: #BE5300;
+    --Orange-Dark-hover: #984300;
+    --Orange-Dark-active: #723200;
+    --Orange-Darker: #592700;
+
+
+    /* Black */
+    --Black-Light: #E6E6E6;
+    --Black-Light-hover: #D9D9D9;
+    --Black-Light-active: #B0B0B0;
+    --Black-Normal: #5f5f5f;
+    --Black-Normal-hover: #000000;
+    --Black-Normal-activ: #000000;
+    --Black-Dark: #000000;
+    --Black-Dark-hover: #000000;
+    --Black-Dark-active: #111111;
+    --Black-Darker: #000000;
+
+
+    /* White */
+    --White-Light: #FEFEFE;
+    --White-Light-hover: #FEFEFE;
+    --White-Light-active: #FDFDFD;
+    --White-Normal: #F8F8F8;
+    --White-Normal-hover: #DFDFDF;
+    --White-Normal-activ: #C6C6C6;
+    --White-Dark: #BABABA;
+    --White-Dark-hover: #959595;
+    --White-Dark-active: #707070;
+    --White-Darker: #575757;
+
+
+    /* Grey */
+    --Grey-Light: #E9E9E9;
+    --Grey-Light-hover: #DDDDDD;
+    --Grey-Light-active: #B9B9B9;
+    --Grey-Normal: #1E1E1E;
+    --Grey-Normal-hover: #1B1B1B;
+    --Grey-Normal-activ: #181818;
+    --Grey-Dark: #171717;
+    --Grey-Dark-hover: #121212;
+    --Grey-Dark-active: #0D0D0D;
+    --Grey-Darker: #0B0B0B;
+}

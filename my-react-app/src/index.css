@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Lato;
+  src: url(./assets/fonts/Lato/Lato-Bold.ttf);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+* {
+  font-family: Lato !important;
+  cursor: none !important;
+
+}
+
+body {
+  padding-top: 104px;
+  position: relative;
+}
+
+body {
+  --sb-track-color: #404040;
+  --sb-thumb-color: #000000;
+  --sb-size: 7px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}

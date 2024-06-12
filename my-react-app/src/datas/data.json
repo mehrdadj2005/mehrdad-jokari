@@ -1,6 +1,6 @@
 {
     "header": [{
-            "src": "./images/menu.svg"
+            "src": "./src/assets/images/menu.svg"
         }, {
             "child": "MeHrDaD jOkArI"
         },
@@ -33,7 +33,7 @@
         }]
     ],
     "heroSection": [{
-            "src": "images/meImage.png"
+            "src": "./src/assets/images/meImage.png"
         },
         {
             "textsHero": [{
@@ -51,12 +51,12 @@
             ],
             "linksIcon": [{
                     "class": "iconInsta",
-                    "src": "images/insta.svg",
+                    "src": "./src/assets/images/insta.svg",
                     "href": "https://www.instagram.com/mehrdadj2005?igsh=MW1zYnM0aThteHQ3aQ=="
                 },
                 {
                     "class": "iconLinkedin",
-                    "src": "images/linkedin.svg",
+                    "src": "./src/assets/images/linkedin.svg",
                     "href": "https://www.linkedin.com/in/mehrdad-jokari-4bab33276/"
                 }
             ],
@@ -91,22 +91,22 @@
             "description": "Lorem ipsum dolor sit amet consectetur."
         },
         [{
-                "srcLink": "./images/icons8-html-5.svg",
+                "srcLink": "./src/assets/images/icons8-html-5.svg",
                 "titCard": "HTML / CSS",
                 "description": "Professional and specialized (HTML / CSS) template development"
             },
             {
-                "srcLink": "./images/icons8-js.svg",
+                "srcLink": "./src/assets/images/icons8-js.svg",
                 "titCard": "java script",
                 "description": "Professional and specialized website development with JavaScript language"
             },
             {
-                "srcLink": "./images/icons8-react-48.png",
+                "srcLink": "./src/assets/images/icons8-react-48.png",
                 "titCard": "java script",
                 "description": "Site development with React library, the best and fastest library"
             },
             {
-                "srcLink": "./images/icons8-paint-palette-with-brush-96.png",
+                "srcLink": "./src/assets/images/icons8-paint-palette-with-brush-96.png",
                 "titCard": "java script",
                 "description": "Designing 0 to 100 sites with ux science"
             }
@@ -117,54 +117,54 @@
             "description": "User Interface And User Experience And Also Video Editing"
         },
         [{
-                "src": "images/meImage2.svg"
+                "src": "./src/assets/images/meImage2.svg"
             },
             {
                 "textAboutMe": "I am from Bushehr! After watching a movie,I became interested in programming after a while. Currently, I have learned HTML, CSS, JAVASCRIPT and I am learning react I worked for 6 months in the area of ​​ui / ux design I am interested in  management and I am improving every day. ( If you don't want to be the same color Go crazy for the crowd !!!)",
                 "btns": [{
-                    "srcIcon": "images/Downlaod.svg",
+                    "srcIcon": "./src/assets/images/Downlaod.svg",
                     "textBtn": "Download CV",
                     "class": "btn",
                     "href": "images/MyResume-99[www.cvbuilder.me].pdf"
                 }]
             },
             [{
-                    "srcIcon": "images/JS.svg",
+                    "srcIcon": "./src/assets/images/JS.svg",
                     "Percent": "45%",
                     "skillName": "Java Script"
                 },
                 {
-                    "srcIcon": "images/github.png",
+                    "srcIcon": "./src/assets/images/github.png",
                     "Percent": "90%",
                     "skillName": "Github Desktop"
                 },
                 {
-                    "srcIcon": "images/visual-studio.svg",
+                    "srcIcon": "./src/assets/images/visual-studio.svg",
                     "Percent": "95%",
                     "skillName": "VS Code"
                 },
                 {
-                    "srcIcon": "images/trello.svg",
+                    "srcIcon": "./src/assets/images/trello.svg",
                     "Percent": "85%",
                     "skillName": "trello"
                 },
                 {
-                    "srcIcon": "images/bootstrap.svg",
+                    "srcIcon": "./src/assets/images/bootstrap.svg",
                     "Percent": "50%",
                     "skillName": "BootStrap"
                 },
                 {
-                    "srcIcon": "images/figma.png",
+                    "srcIcon": "./src/assets/images/figma.png",
                     "Percent": "50%",
                     "skillName": "Figma"
                 },
                 {
-                    "srcIcon": "images/UI.svg",
+                    "srcIcon": "./src/assets/images/UI.svg",
                     "Percent": "15%",
                     "skillName": "UI"
                 },
                 {
-                    "srcIcon": "images/UX.svg",
+                    "srcIcon": "./src/assets/images/UX.svg",
                     "Percent": "35%",
                     "skillName": "UX"
                 }
@@ -178,19 +178,19 @@
             []
         ],
         [{
-                "src": "./images/project-01.png",
+                "src": "./src/assets/images/project-01.png",
                 "href": "https://mehrdadj2005.github.io/Cupcake-Factory/",
                 "nameProject": "Cupcake Factory",
                 "categories": "CSS"
             },
             {
-                "src": "images/TOM-AND-JERRY.jpg",
+                "src": "./src/assets/images/TOM-AND-JERRY.jpg",
                 "href": "https://mehrdadj2005.github.io/TOM-AND-JERRY-GAME/",
                 "nameProject": "Tom And Jerry",
                 "categories": "JS"
             },
             {
-                "src": "./images/IQ-TEST.png",
+                "src": "./src/assets/images/IQ-TEST.png",
                 "href": "https://mehrdadj2005.github.io/IQ-TEST/",
                 "nameProject": "lorem lorem",
                 "categories": "Css"
@@ -240,21 +240,21 @@
         ],
         [{
                 "class": "iconInsta",
-                "src": "images/insta.svg",
+                "src": "./src/assets/images/insta.svg",
                 "href": "https://www.instagram.com/mehrdadj2005?igsh=MW1zYnM0aThteHQ3aQ=="
             },
             {
                 "class": "iconLinkedin",
-                "src": "images/linkedin.svg",
+                "src": "./src/assets/images/linkedin.svg",
                 "href": "https://www.linkedin.com/in/mehrdad-jokari-4bab33276/"
             }
         ],
         [{
-                "src": "./images/emailIcon.svg",
+                "src": "./src/assets/images/emailIcon.svg",
                 "child": "mehrdadjokari13@gmail.com"
             },
             {
-                "src": "./images/callIcon.svg",
+                "src": "./src/assets/images/callIcon.svg",
                 "child": "09030377534"
             }
         ],
