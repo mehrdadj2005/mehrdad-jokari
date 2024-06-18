@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: K2D;
-    src: url(../assets/fonts/K2D/K2D-Bold.ttf);
+    src: url(../assets/K2D-Bold.ttf);
 }
 
 * {
@@ -79,7 +79,7 @@ li {
 @media screen and (max-width: 1300px) {
 
     body {
-        padding-top: 87px;
+        padding-top: 80px;
     }
 
     header .container {
