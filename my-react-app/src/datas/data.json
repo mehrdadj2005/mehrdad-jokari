@@ -72,15 +72,15 @@
                 }
             ],
             "projectHistory": [{
-                    "num": "5+",
+                    "num": "2+",
                     "child": "Experiences"
                 },
                 {
-                    "num": "6+",
+                    "num": "3+",
                     "child": "Project done"
                 },
                 {
-                    "num": "0+",
+                    "num": "3+",
                     "child": "Happy Clients"
                 }
             ]
