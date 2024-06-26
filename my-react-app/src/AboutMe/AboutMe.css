@@ -141,11 +141,6 @@
     height: 50px;
 }
 
-.skill span {
-    color: var(--Orange-Normal);
-    margin-top: 10px;
-}
-
 .skill h4 {
     color: var(--White-Dark-hover);
     margin-top: 8px;
@@ -316,11 +311,6 @@
     .skill img {
         width: 40px;
         height: 40px;
-    }
-
-    .skill>span {
-        font-size: 15px !important;
-        margin-top: 8px;
     }
 
     .skill>h4 {

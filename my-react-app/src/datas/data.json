@@ -130,42 +130,34 @@
             },
             [{
                     "srcIcon": "./images/JS.svg",
-                    "Percent": "45%",
                     "skillName": "Java Script"
                 },
                 {
                     "srcIcon": "./images/github.png",
-                    "Percent": "90%",
                     "skillName": "Github Desktop"
                 },
                 {
                     "srcIcon": "./images/visual-studio.svg",
-                    "Percent": "95%",
                     "skillName": "VS Code"
                 },
                 {
                     "srcIcon": "./images/trello.svg",
-                    "Percent": "85%",
                     "skillName": "trello"
                 },
                 {
                     "srcIcon": "./images/bootstrap.svg",
-                    "Percent": "50%",
                     "skillName": "BootStrap"
                 },
                 {
                     "srcIcon": "./images/figma.png",
-                    "Percent": "50%",
                     "skillName": "Figma"
                 },
                 {
                     "srcIcon": "./images/UI.svg",
-                    "Percent": "15%",
                     "skillName": "UI"
                 },
                 {
                     "srcIcon": "./images/UX.svg",
-                    "Percent": "35%",
                     "skillName": "UX"
                 }
             ]

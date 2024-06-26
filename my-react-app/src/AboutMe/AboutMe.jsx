@@ -46,7 +46,6 @@ export default function AboutMe(props) {
                                         <div>
                                             <img src={item.srcIcon} />
                                         </div>
-                                        <span>{item.Percent}</span>
                                         <h4>{item.skillName}</h4>
                                     </div>
                                 </>
@@ -59,7 +58,6 @@ export default function AboutMe(props) {
                                         <div>
                                             <img src={item.srcIcon} />
                                         </div>
-                                        <span>{item.Percent}</span>
                                         <h4>{item.skillName}</h4>
                                     </div>
                                 </>
