@@ -50,6 +50,11 @@
                 }
             ],
             "linksIcon": [{
+                    "class": "iconGithub",
+                    "src": "./images/icons8-github.svg",
+                    "href": "https://github.com/mehrdadj2005"
+                },
+                {
                     "class": "iconInsta",
                     "src": "./images/insta.svg",
                     "href": "https://www.instagram.com/mehrdadj2005?igsh=MW1zYnM0aThteHQ3aQ=="
@@ -231,6 +236,10 @@
             }
         ],
         [{
+                "class": "iconGithub",
+                "src": "./images/icons8-github.svg",
+                "href": "https://github.com/mehrdadj2005"
+            }, {
                 "class": "iconInsta",
                 "src": "./images/insta.svg",
                 "href": "https://www.instagram.com/mehrdadj2005?igsh=MW1zYnM0aThteHQ3aQ=="

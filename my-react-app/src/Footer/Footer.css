@@ -173,9 +173,11 @@ footer .linksIcon a img {
     }
 
     .linksIcon a img {
-        width: 17px !important;
-        height: 17px !important;
+        width: 17px;
+        height: 17px;
     }
+
+
 }
 
 @media screen and (max-width: 360px) {
@@ -218,5 +220,10 @@ footer .linksIcon a img {
 
     .callMe {
         margin-top: 10px;
+    }
+
+    .iconGithub img {
+        width: 30px !important;
+        height: 30px !important;
     }
 }
